@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "mon_roulement",
+      "name": "Mon Roulement",
+      "description": "L'app sœur de Mon Garage.",
+      "package": "",
+      "url": "",
+      "icon": ""
+    }
+  ]
+}

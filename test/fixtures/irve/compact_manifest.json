@@ -1,0 +1,12 @@
+{
+  "version": "5f34c7f4dd2d783a",
+  "format": 1,
+  "generated_at": "2026-10-18T19:05:11Z",
+  "source_date": "2026-10-18",
+  "source": "test/fixtures/irve/sample.csv",
+  "license": "Licence Ouverte v2.0 (Etalab) — Base nationale des IRVE, data.gouv.fr",
+  "file": "stations-5f34c7f4dd2d783a.json.gz",
+  "sha256": "d92102b41e8d4adcb0ba9f29811ba2d5c23fd2b423dba959028089b9b01ed0dc",
+  "size": 1641,
+  "count": 11
+}

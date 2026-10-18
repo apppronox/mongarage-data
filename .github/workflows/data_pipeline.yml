@@ -1,0 +1,56 @@
+name: Données publiques (bornes IRVE)
+
+# Chaque lundi à 04:30 UTC (la source est mise à jour vers 03:25 UTC chaque jour),
+# et à la demande depuis l'onglet Actions.
+on:
+  schedule:
+    - cron: "30 4 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tool/irve_pipeline/**"
+      - "tool/site/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests du pipeline
+        run: python -m unittest discover -s tool/irve_pipeline -v
+
+      - name: Construction du fichier des bornes
+        run: python tool/irve_pipeline/build_irve.py --out public
+
+      - name: Pages statiques (autres apps, confidentialité)
+        run: cp -r tool/site/. public/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

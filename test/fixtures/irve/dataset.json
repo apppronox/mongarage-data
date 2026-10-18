@@ -1,0 +1,379 @@
+{
+ "access_audiences": [],
+ "access_type": "open",
+ "access_type_reason": null,
+ "access_type_reason_category": null,
+ "acronym": "IRVE",
+ "archived": null,
+ "authorization_request_url": null,
+ "badges": [],
+ "contact_points": [],
+ "created_at": "2014-10-23T12:09:36.538000+00:00",
+ "deleted": null,
+ "description": "## **⚠️ Transition vers les nouvelles Bases Nationales des IRVE (données statiques et dynamiques) sur le PAN**\n\n<br />\n\n### **Ce jeu de données est désormais remplacé par la [version consolidée et actualisée d](https://www.data.gouv.fr/datasets/beta-bases-nationales-des-points-de-recharge-pour-vehicules-electriques-en-france-irve)e transport.data.gouv.fr**\n\n### **Pour assurer une transition fluide, cette base reste accessible jusqu'au 31/12/2026, date à laquelle elle sera définitivement supprimée.**\n\n<br />\n\n\\==============================================================================================\n\n## **IRVE** Contexte\n\n<br />\n\nAménageurs, collectivités, producteurs de données : [retrouvez ici la documentation complète pour référencer les points de recharge de vos stations](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve).\n\n## Contexte\n\nDans le but de constituer un répertoire national des Infrastructures de recharge pour véhicules électriques (IRVE), ouvert et accessible à tous, les aménageurs, installateurs et opérateurs porteurs d’un projet d’installation d’IRVE doivent, au fur et à mesure de la mise en service des stations de recharge, publier sur la plateforme data.gouv.fr les données statiques relatives à la localisation et aux caractéristiques techniques de ces installations selon les modalités définies dans l’[arrêté du 4 mai 2021](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043475441).\nL'équipe data.gouv.fr consolide l'ensemble des jeux de données produits par les différents acteurs dans un fichier consolidé. Celui-ci a pour objectif d'être le plus exhaustif possible et ambitionne de regrouper l'ensemble des points de recharges en France.\n\nLe [Point d'Accès National](https://transport.data.gouv.fr/) propose aussi en version Beta une [consolidation des données statiques](https://www.data.gouv.fr/datasets/beta-base-nationale-des-points-de-recharge-pour-vehicules-electriques-en-france-irve). L'objectif est que sous peu cette consolidation devienne la nouvelle Base Nationale des données IRVE.\n\n## Versions\n\nUne nouvelle version du [schéma de données](https://schema.data.gouv.fr/etalab/schema-irve-statique/latest.html) a été publiée le 17 octobre 2022 (v2.1.0). Elle simplifie la version 2.0.3 en rendant certains champs facultatifs.\nLa version v1.0.3 du schéma n'est plus consolidée mais reste historisée dans ce jeu de données.\n\n## Consolidation\n\nPour que vos données soient intégrées à la Base Nationale consolidée, vous devez au préalable [produire](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve/produire-ses-donnees) et [publier](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve/publier-ses-donnees-sur-data.gouv.fr) votre propre jeu de données conformément au schéma de données. Le processus de consolidation est consultable [ici](https://github.com/datagouv/datagouvfr_data_pipelines/tree/main/schema/scripts/schemas_consolidation) (NB : il concerne l'ensemble des schémas de données, pas seulement le [schéma IRVE](https://schema.data.gouv.fr/etalab/schema-irve-statique/latest.html), bien que celui-ci ait un traitement supplémentaire).\n\nSi vous ne trouvez pas vos données dans la base consolidée, c'est qu'elles contiennent probablement des erreurs par rapport au schéma attendu.\n\nPour disposer du rapport d'erreur, vous pouvez utiliser l'outil [Validata](https://validata.fr/table-schema?schema_name=schema-datagouvfr.etalab%2Fschema-irve-statique).\n\nPour  plus d'information sur le process de la production des données à leur consolidation, rendez-vous [ici](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve)\n\n![De la production de vos données à leur consolidation dans la base nationale](https://3621920706-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LYbYk9lnsDJecXtCHYd-887967055%2Fuploads%2FuXx8uuq34Xu5oHFr1Js0%2Fimage.png?alt=media\\&token=92ff2df0-df5c-4810-a764-15e8a2a4d546 \"entrez le titre de l'image ici\")\n",
+ "description_short": null,
+ "doi": null,
+ "extras": {
+  "transport:url": "https://transport.data.gouv.fr/datasets/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques"
+ },
+ "featured": true,
+ "frequency": "daily",
+ "frequency_date": "2022-11-04T14:37:42+00:00",
+ "geopf": null,
+ "harvest": null,
+ "id": "5448d3e0c751df01f85d0572",
+ "internal": {
+  "created_at_internal": "2014-10-23T12:09:36.538000+00:00",
+  "last_modified_internal": "2026-10-18T03:25:21.492000+00:00"
+ },
+ "last_modified": "2026-10-18T03:25:21.492000+00:00",
+ "last_update": "2026-10-18T03:25:21.492000+00:00",
+ "license": "fr-lo",
+ "metrics": {
+  "dataservices": 1,
+  "discussions": 108,
+  "discussions_open": 82,
+  "followers": 52,
+  "followers_by_months": {
+   "2025-09": 0,
+   "2025-10": 0,
+   "2025-11": 0,
+   "2025-12": 0,
+   "2026-01": 0,
+   "2026-02": 0,
+   "2026-03": 0,
+   "2026-04": 0,
+   "2026-05": 0,
+   "2026-06": 0,
+   "2026-07": 0,
+   "2026-08": 0,
+   "2026-09": 0
+  },
+  "resources_downloads": 265064,
+  "reuses": 79,
+  "reuses_by_months": {
+   "2025-10": 0,
+   "2025-11": 0,
+   "2025-12": 1,
+   "2026-01": 1,
+   "2026-02": 1,
+   "2026-03": 1,
+   "2026-04": 0,
+   "2026-05": 2,
+   "2026-06": 2,
+   "2026-07": 5,
+   "2026-08": 7,
+   "2026-09": 4,
+   "2026-10": 6
+  },
+  "views": 186414
+ },
+ "organization": {
+  "acronym": null,
+  "badges": [
+   {
+    "kind": "public-service"
+   },
+   {
+    "kind": "certified"
+   }
+  ],
+  "class": "Organization",
+  "id": "646b7187b50b2a93b1ae3d45",
+  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/31/8739c52c534ed583b0256ee4541875.png",
+  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/31/8739c52c534ed583b0256ee4541875-100.png",
+  "name": "data.gouv.fr",
+  "page": "https://www.data.gouv.fr/organizations/data-gouv-fr",
+  "permissions": {
+   "delete": false,
+   "edit": false,
+   "harvest": false,
+   "members": false,
+   "private": false
+  },
+  "slug": "data-gouv-fr",
+  "uri": "https://www.data.gouv.fr/api/1/organizations/data-gouv-fr/"
+ },
+ "owner": null,
+ "page": "https://www.data.gouv.fr/datasets/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+ "permissions": {
+  "delete": false,
+  "edit": false,
+  "edit_resources": false
+ },
+ "private": false,
+ "quality": {
+  "all_resources_available": true,
+  "dataset_description_quality": true,
+  "has_open_format": true,
+  "has_resources": true,
+  "license": true,
+  "resources_documentation": true,
+  "score": 0.8888888888888888,
+  "spatial": true,
+  "temporal_coverage": false,
+  "update_frequency": true,
+  "update_fulfilled_in_time": true
+ },
+ "resources": [
+  {
+   "checksum": {
+    "type": "sha1",
+    "value": "197654387887448bd6e377b0137582c0a7a2b391"
+   },
+   "created_at": "2024-02-08T15:47:38.841000+00:00",
+   "description": "## **⚠️ Transition vers les nouvelles Bases Nationales des IRVE sur le PAN**\n\n### **Cette ressource (fichier) est désormais remplacée par la [version consolidée et actualisée d](https://www.data.gouv.fr/datasets/beta-bases-nationales-des-points-de-recharge-pour-vehicules-electriques-en-france-irve)e transport.data.gouv.fr**\n\n### **Pour assurer une transition fluide, cette ressource reste accessible jusqu'au 31/12/2026, date à laquelle elle sera définitivement supprimée.**\n\n",
+   "extras": {
+    "analysis:check_id": 55306985,
+    "analysis:checksum": "197654387887448bd6e377b0137582c0a7a2b391",
+    "analysis:content-length": 108522768,
+    "analysis:last-modified-at": "2026-10-18T03:24:02+00:00",
+    "analysis:last-modified-detection": "last-modified-header",
+    "analysis:mime-type": "text/csv",
+    "analysis:parsing:finished_at": "2026-10-18T03:24:42.928124+00:00",
+    "analysis:parsing:geojson_size": 308984692,
+    "analysis:parsing:geojson_url": "https://hydra.s3.rbx.io.cloud.ovh.net/geojson/eb76d20a-8501-400e-b336-d85724de5435.geojson",
+    "analysis:parsing:parquet_size": 6655899,
+    "analysis:parsing:parquet_url": "https://hydra.s3.rbx.io.cloud.ovh.net/parquet/eb76d20a-8501-400e-b336-d85724de5435.parquet",
+    "analysis:parsing:parsing_table": "b6fd44d5ebbe8e80df0febe54c787e62",
+    "analysis:parsing:pmtiles_size": 24653637,
+    "analysis:parsing:pmtiles_url": "https://hydra.s3.rbx.io.cloud.ovh.net/pmtiles/eb76d20a-8501-400e-b336-d85724de5435.pmtiles",
+    "analysis:parsing:started_at": "2026-10-18T03:24:17.087357+00:00",
+    "check:available": true,
+    "check:cors:allow-credentials": "true",
+    "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+    "check:cors:allow-methods": "GET, OPTIONS",
+    "check:cors:allow-origin": "*",
+    "check:cors:max-age": "1728000",
+    "check:cors:status": 204,
+    "check:date": "2026-09-30T03:25:04.313000",
+    "check:headers:content-type": "text/csv",
+    "check:id": 54231408,
+    "check:status": 200,
+    "check:timeout": false
+   },
+   "filesize": 108522768,
+   "filetype": "file",
+   "format": "csv",
+   "geopf": null,
+   "harvest": null,
+   "id": "eb76d20a-8501-400e-b336-d85724de5435",
+   "internal": {
+    "created_at_internal": "2024-02-08T15:47:38.841000+00:00",
+    "last_modified_internal": "2026-10-18T03:24:02.373000+00:00"
+   },
+   "last_modified": "2026-10-18T03:24:02.373000+00:00",
+   "latest": "https://www.data.gouv.fr/api/1/datasets/r/eb76d20a-8501-400e-b336-d85724de5435",
+   "metrics": {
+    "views": 94942
+   },
+   "mime": "text/csv",
+   "preview_url": "https://explore.data.gouv.fr/fr/resources/eb76d20a-8501-400e-b336-d85724de5435",
+   "schema": {
+    "name": "etalab/schema-irve-statique",
+    "url": null,
+    "version": "2.3.1"
+   },
+   "title": "Consolidation de la dernière version à date du schéma (v2.3.1) - 20261018",
+   "type": "main",
+   "url": "https://static.data.gouv.fr/resources/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques/20261018-032351/consolidation-etalab-schema-irve-statique-v-2.3.1-20261018.csv"
+  },
+  {
+   "checksum": {
+    "type": "sha1",
+    "value": "197654387887448bd6e377b0137582c0a7a2b391"
+   },
+   "created_at": "2024-04-29T10:14:03.568000+00:00",
+   "description": "## **⚠️ Transition vers les nouvelles Bases Nationales des IRVE sur le PAN**\n\n### **Cette ressource (fichier) est désormais remplacée par la [version consolidée et actualisée d](https://www.data.gouv.fr/datasets/beta-bases-nationales-des-points-de-recharge-pour-vehicules-electriques-en-france-irve)e transport.data.gouv.fr**\n\n### **Pour assurer une transition fluide, cette ressource reste accessible jusqu'au 31/12/2026, date à laquelle elle sera définitivement supprimée.**\n",
+   "extras": {
+    "analysis:check_id": 55306980,
+    "analysis:error": "File too large to download",
+    "analysis:last-modified-at": "2026-10-18T03:23:47+00:00",
+    "analysis:last-modified-detection": "last-modified-header",
+    "analysis:parsing:finished_at": "2026-10-15T03:24:40.947551+00:00",
+    "analysis:parsing:geojson_size": 286275083,
+    "analysis:parsing:geojson_url": "https://hydra.s3.rbx.io.cloud.ovh.net/geojson/2729b192-40ab-4454-904d-735084dca3a3.geojson",
+    "analysis:parsing:parquet_size": 6104238,
+    "analysis:parsing:parquet_url": "https://hydra.s3.rbx.io.cloud.ovh.net/parquet/2729b192-40ab-4454-904d-735084dca3a3.parquet",
+    "analysis:parsing:parsing_table": "e1c72e4f1f8771667a272101494fd30e",
+    "analysis:parsing:pmtiles_size": 16213286,
+    "analysis:parsing:pmtiles_url": "https://hydra.s3.rbx.io.cloud.ovh.net/pmtiles/2729b192-40ab-4454-904d-735084dca3a3.pmtiles",
+    "analysis:parsing:started_at": "2026-10-15T03:24:13.527609+00:00",
+    "check:available": true,
+    "check:cors:allow-credentials": "true",
+    "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+    "check:cors:allow-methods": "GET, OPTIONS",
+    "check:cors:allow-origin": "*",
+    "check:cors:max-age": "1728000",
+    "check:cors:status": 204,
+    "check:date": "2026-09-30T03:24:26.691000",
+    "check:headers:content-type": "text/csv",
+    "check:id": 54231355,
+    "check:status": 200,
+    "check:timeout": false
+   },
+   "filesize": 108522768,
+   "filetype": "file",
+   "format": "csv",
+   "geopf": null,
+   "harvest": null,
+   "id": "2729b192-40ab-4454-904d-735084dca3a3",
+   "internal": {
+    "created_at_internal": "2024-04-29T10:14:03.568000+00:00",
+    "last_modified_internal": "2026-10-18T03:23:48.291000+00:00"
+   },
+   "last_modified": "2026-10-18T03:23:48.291000+00:00",
+   "latest": "https://www.data.gouv.fr/api/1/datasets/r/2729b192-40ab-4454-904d-735084dca3a3",
+   "metrics": {
+    "views": 16568
+   },
+   "mime": "text/csv",
+   "preview_url": "https://explore.data.gouv.fr/fr/resources/2729b192-40ab-4454-904d-735084dca3a3",
+   "schema": {
+    "name": "etalab/schema-irve-statique",
+    "url": null,
+    "version": "2.3.1"
+   },
+   "title": "Consolidation de la v2.3.1 du schéma - 20261018",
+   "type": "main",
+   "url": "https://static.data.gouv.fr/resources/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques/20261018-032336/consolidation-etalab-schema-irve-statique-v-2.3.1-20261018.csv"
+  },
+  {
+   "checksum": {
+    "type": "sha1",
+    "value": "1298e01f4b91b6353dfe78ecd0dea4ce5a86cc6c"
+   },
+   "created_at": "2022-07-26T09:44:37.366000+00:00",
+   "description": null,
+   "extras": {
+    "analysis:check_id": 55307013,
+    "analysis:checksum": "1298e01f4b91b6353dfe78ecd0dea4ce5a86cc6c",
+    "analysis:content-length": 398620789,
+    "analysis:last-modified-at": "2026-10-18T03:24:53+00:00",
+    "analysis:last-modified-detection": "last-modified-header",
+    "analysis:mime-type": "text/plain",
+    "analysis:parsing:pmtiles_size": 25544490,
+    "analysis:parsing:pmtiles_url": "https://hydra.s3.rbx.io.cloud.ovh.net/pmtiles/7eee8f09-5d1b-4f48-a304-5e99e8da1e26.pmtiles",
+    "check:available": true,
+    "check:cors:allow-credentials": "true",
+    "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+    "check:cors:allow-methods": "GET, OPTIONS",
+    "check:cors:allow-origin": "*",
+    "check:cors:max-age": "1728000",
+    "check:cors:status": 204,
+    "check:date": "2026-10-18T03:24:56.209182+00:00",
+    "check:headers:content-length": 398620789,
+    "check:headers:content-type": "application/geo+json",
+    "check:id": 55307013,
+    "check:status": 200,
+    "check:timeout": false
+   },
+   "filesize": 398620789,
+   "filetype": "file",
+   "format": "geojson",
+   "geopf": null,
+   "harvest": null,
+   "id": "7eee8f09-5d1b-4f48-a304-5e99e8da1e26",
+   "internal": {
+    "created_at_internal": "2022-07-26T09:44:37.366000+00:00",
+    "last_modified_internal": "2026-10-18T03:24:53.415000+00:00"
+   },
+   "last_modified": "2026-10-18T03:24:53.415000+00:00",
+   "latest": "https://www.data.gouv.fr/api/1/datasets/r/7eee8f09-5d1b-4f48-a304-5e99e8da1e26",
+   "metrics": {
+    "views": 30315
+   },
+   "mime": "application/geo+json",
+   "preview_url": null,
+   "schema": {
+    "name": null,
+    "url": null,
+    "version": null
+   },
+   "title": "Export au format geojson (v2.3.1)",
+   "type": "main",
+   "url": "https://static.data.gouv.fr/resources/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques/20261018-032413/consolidation-etalab-schema-irve-statique-v-2.3.1-20261018.geojson"
+  },
+  {
+   "checksum": {
+    "type": "sha1",
+    "value": "191cba989f297b3d9d565a04d24882694525af00"
+   },
+   "created_at": "2021-06-04T19:42:36.639000+00:00",
+   "description": null,
+   "extras": {
+    "analysis:check_id": 55307037,
+    "analysis:checksum": "191cba989f297b3d9d565a04d24882694525af00",
+    "analysis:content-length": 1435411,
+    "analysis:last-modified-at": "2026-10-18T03:25:21+00:00",
+    "analysis:last-modified-detection": "last-modified-header",
+    "analysis:mime-type": "text/csv",
+    "analysis:parsing:finished_at": "2026-10-18T03:25:33.945556+00:00",
+    "analysis:parsing:parquet_size": 237499,
+    "analysis:parsing:parquet_url": "https://hydra.s3.rbx.io.cloud.ovh.net/parquet/41b0514d-956d-4e42-80ef-1dcf88cc74e9.parquet",
+    "analysis:parsing:parsing_table": "206c739fdb1f2d400ed1eae4e1788e69",
+    "analysis:parsing:started_at": "2026-10-18T03:25:33.447564+00:00",
+    "check:available": true,
+    "check:cors:allow-credentials": "true",
+    "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+    "check:cors:allow-methods": "GET, OPTIONS",
+    "check:cors:allow-origin": "*",
+    "check:cors:max-age": "1728000",
+    "check:cors:status": 204,
+    "check:date": "2026-09-30T03:33:25.289000",
+    "check:headers:content-type": "text/csv",
+    "check:id": 54231900,
+    "check:status": 200,
+    "check:timeout": false
+   },
+   "filesize": 1435411,
+   "filetype": "file",
+   "format": "csv",
+   "geopf": null,
+   "harvest": null,
+   "id": "41b0514d-956d-4e42-80ef-1dcf88cc74e9",
+   "internal": {
+    "created_at_internal": "2021-06-04T19:42:36.639000+00:00",
+    "last_modified_internal": "2026-10-18T03:25:21.492000+00:00"
+   },
+   "last_modified": "2026-10-18T03:25:21.492000+00:00",
+   "latest": "https://www.data.gouv.fr/api/1/datasets/r/41b0514d-956d-4e42-80ef-1dcf88cc74e9",
+   "metrics": {
+    "views": 16242
+   },
+   "mime": "text/csv",
+   "preview_url": "https://explore.data.gouv.fr/fr/resources/41b0514d-956d-4e42-80ef-1dcf88cc74e9",
+   "schema": null,
+   "title": "Documentation sur la consolidation - 20261018",
+   "type": "documentation",
+   "url": "https://static.data.gouv.fr/resources/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques/20261018-032518/ref-table-etalab-schema-irve-statique.csv"
+  }
+ ],
+ "schema": null,
+ "slug": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+ "spatial": {
+  "geom": null,
+  "granularity": "country",
+  "zones": [
+   "country:fr"
+  ]
+ },
+ "tags": [
+  "borne-de-recharge",
+  "bornes",
+  "bornes-de-recharge",
+  "electrique",
+  "etalab-schema-irve-consolidation",
+  "geolocalisation",
+  "irve",
+  "localisation",
+  "recharge",
+  "transport",
+  "vehicule",
+  "vehicule-electrique",
+  "vehicules"
+ ],
+ "temporal_coverage": null,
+ "title": "Base nationale des IRVE data.gouv (Infrastructures de Recharge pour Véhicules Électriques) données statiques",
+ "uri": "https://www.data.gouv.fr/api/1/datasets/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques/"
+}
